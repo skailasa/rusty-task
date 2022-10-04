@@ -29,5 +29,7 @@ Can we create something like Dask but for scientific computing in Rust? Out of c
 - [Parallel and Distributed Computing in Python with Dask, Borbeau, McCarty and Pothina, 2020](https://www.youtube.com/watch?v=EybGGLbLipI&ab_channel=Enthought)
 	- Dask tutorial for users, documents the API.
 
+### Questions
 
+- What is a good format for on disk data for a MVP? HDF5? Are there alternatives?? (NetCDF?)
 
