@@ -11,7 +11,7 @@ Can we create something like Dask but for scientific computing in Rust? Out of c
 - [] Task graph generator
 - [] Task graph visualizer
 - [] Scheduler
-- [] Linear algebra functionality
+- [] Linear algebra functionality via [blocked algorithms](https://nhigham.com/2021/10/28/what-is-a-blocked-algorithm/)
 
 
 
