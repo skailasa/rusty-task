@@ -17,17 +17,16 @@ Can we create something like Dask but for scientific computing in Rust? Out of c
 
 ### Existing software
 
-- [https://tokio.rs/](Tokio) - an async runtime for Rust, not suitable for scientific computing where we're more interested in out-of-core computing for large tasks, rather than a large number of small O(ms) tasks.
+- [Tokio](https://tokio.rs/) - an async runtime for Rust, not suitable for scientific computing where we're more interested in out-of-core computing for large tasks, rather than a large number of small O(ms) tasks.
 
 
 
 ### Literature review
 
-- [http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.825.5314&rep=rep1&type=pdf](Dask: Parallel Computation with Blocked algorithms
-and Task Scheduling, M. Rokhlin, 2015)
+- [Dask: Parallel Computation with Blocked algorithms and Task Scheduling, M. Rokhlin, 2015](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.825.5314&rep=rep1&type=pdf)
 	- Overview of Dask vs 0.1.0 API and idea.
 
-- [https://www.youtube.com/watch?v=EybGGLbLipI&ab_channel=Enthought](Parallel and Distributed Computing in Python with Dask, Borbeau, McCarty and Pothina, 2020)
+- [Parallel and Distributed Computing in Python with Dask, Borbeau, McCarty and Pothina, 2020](https://www.youtube.com/watch?v=EybGGLbLipI&ab_channel=Enthought)
 	- Dask tutorial for users, documents the API.
 
 
